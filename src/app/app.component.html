@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- THIS ISNT WORKING -->
+<!--- CLICK on href to open/close id="fact-checker" and it breaks -->
+<script>
+	function w3_open(){
+      document.getElementById("fact-checker").display="block";
+}
+
+function w3_close(){
+      document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+ 
+<app-candidate></app-candidate>
+
+<app-political-issues></app-political-issues>
+
+<!-- political page fact checker component -->
+<app-fact-checker></app-fact-checker>
+<!-- end of fact checjer component -->
+
+<footer class="w3-gray">
+  <h1>FOOTER GOES HERE</h1>
+</footer>
